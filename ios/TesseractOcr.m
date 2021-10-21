@@ -7,7 +7,7 @@
 RCT_EXPORT_MODULE();
 
 // Method available in Javascript
-RCT_EXPORT_METHOD(scanForText:(NSString *)url
+RCT_EXPORT_METHOD(recognize:(NSString *)url
                   coordinates:(NSDictionary *)coordinates
                   resolver:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject) {
