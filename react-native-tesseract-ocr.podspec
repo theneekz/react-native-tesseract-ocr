@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
+  s.ios.dependency 'TesseractOCRiOS', '~> 5.0'
 end
 
